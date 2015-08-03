@@ -14,7 +14,7 @@ load-balancer node will return same group for given user id.
 Configuration is read from `config.toml` file that should reside in same dir
 as binary. Format:
 
-```toml
+```
 group_name_a: weight_a (unsigned int)
 group_name_b: weight_b
 ....
@@ -22,7 +22,7 @@ group_name_b: weight_b
 
 Weight specifies what is a chance of putting user into that group. For example:
 
-```toml
+```
 A: 8
 B: 2
 ```
