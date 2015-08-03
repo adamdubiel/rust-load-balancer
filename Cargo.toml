@@ -1,0 +1,9 @@
+[package]
+name = "load-balancer"
+version = "0.1.0"
+authors = ["adam"]
+
+[dependencies]
+iron = "0.1.20"
+router = "0.0.10"
+toml = "0.1"
